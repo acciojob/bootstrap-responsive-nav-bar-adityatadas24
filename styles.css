@@ -1,1 +1,62 @@
 /*  your css code here. If applicable */
+/* Custom styles for the NavBar */
+.navbar {
+    background-color: #007BFF; /* Background color for the NavBar */
+}
+
+.navbar-brand {
+    color: #FFFFFF; /* Text color for the brand/logo */
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #FFFFFF; /* Color of the hamburger icon */
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF; /* Text color for the navigation links */
+    font-weight: bold;
+}
+
+/* Style the dropdown menus */
+.dropdown-menu {
+    background-color: #007BFF; /* Background color for dropdown menus */
+}
+
+.dropdown-item {
+    color: #FFFFFF; /* Text color for dropdown items */
+}
+
+/* Change the color of the active dropdown item */
+.dropdown-item.active {
+    background-color: #0056b3; /* Background color for the active item */
+}
+
+/* Style the dropdown toggle links */
+.dropdown-toggle::after {
+    display: none; /* Remove the default caret icon */
+}
+
+/* Change color of the links when hovering over them */
+.navbar-nav .nav-link:hover {
+    color: #0056b3; /* Text color on hover */
+}
+
+/* Add spacing between dropdown items */
+.dropdown-item {
+    padding: 8px 20px;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: #007BFF; /* Background color for mobile menu */
+    }
+    .navbar-toggler-icon {
+        background-color: #FFFFFF; /* Color of the hamburger icon in mobile menu */
+    }
+    .navbar-toggler {
+        border-color: #FFFFFF; /* Border color for the hamburger button in mobile menu */
+    }
+}
+
